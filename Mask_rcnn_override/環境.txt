@@ -1,0 +1,24 @@
+Python 3.5
+TensorFlow 1.3
+Keras 2.0.8
+
+cd /d 專案資料夾路徑
+git clone https://github.com/matterport/Mask_RCNN
+cd Mask_RCNN
+下載雲端東西放到Mask_RCNN資料夾
+將visualize.py放到mrcnn資料夾內覆蓋檔案
+conda create -n tensorflow python=3.5
+activate tensorflow
+pip install tensorflow==1.3
+pip uninstall numpy
+pip install numpy==1.16.4
+pip install keras==2.0.8
+pip install opencv-python
+pip install scikit-image
+pip install matplotlib
+pip install Shapely-1.6.4.post2-cp35-cp35m-win_amd64.whl
+pip install imgaug
+pip install Cython
+pip install git+https://github.com/philferriere/cocoapi.git#subdirectory=PythonAPI
+pip install IPython
+pip install h5py
